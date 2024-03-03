@@ -18,9 +18,10 @@ type Album struct {
 }
 
 func main() {
+	//am gonna remove the password, but **if** some reading this, plz fill it
 	cfg := mysql.Config{
 		User:                 "root",
-		Passwd:               "eDyrr7355608",
+		Passwd:               "",
 		Net:                  "tcp",
 		Addr:                 "127.0.0.1:3306",
 		DBName:               "recordings",
